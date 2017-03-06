@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# © 2004-2011 Pexego Sistemas Informáticos. (http://pexego.es)
-# © 2004-2011 Zikzakmedia S.L. (http://zikzakmedia.com)
+# Copyright 2004-2011 Pexego Sistemas Informáticos. (http://pexego.es)
+# Copyright 2004-2011 Zikzakmedia S.L. (http://zikzakmedia.com)
 #             Jordi Esteve <jesteve@zikzakmedia.com>
-# © 2014-2015 Serv. Tecnol. Avanzados - Pedro M. Baeza
-# © 2016 Antonio Espinosa <antonio.espinosa@tecnativa.com>
+# Copyright 2014-2015 Serv. Tecnol. Avanzados - Pedro M. Baeza
+# Copyright 2016 Antonio Espinosa <antonio.espinosa@tecnativa.com>
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
-from openerp import models, fields, api
+from odoo import models, fields, api
 
 
 class AccountInvoice(models.Model):
